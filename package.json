@@ -11,7 +11,7 @@
     "deploy": "gh-pages --nojekyll -d dist",
     "predeploy": "expo export -p web"
   },
-  "homepage": "http://evanbacon.github.io/expo-gh-pages",
+  "homepage": "https://tyjarrett.github.io/Agevia-Online-Web/",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
