@@ -60,6 +60,7 @@ const ProfileSurvey = ({ setCurrentScreen }: Props) => {
   async function fetchData() {
     getHealthData(auth.authToken)
       .then(({ data: res }) => {
+        console.log(res);
         if (res.health_data[0].age) {
           const resp = {} as QuestionAndResponse;
           resp.variableId = "age" as VariableId;

@@ -6,6 +6,7 @@ export const apiGet = (path: string, token?: string) => {
   return axios.get(`${API_URL}/${path}`, {
     headers: {
       Authorization: `Bearer ${token}`,
+      "Ngrok-Skip-Browser-Warning": "true",
     },
   });
 };
