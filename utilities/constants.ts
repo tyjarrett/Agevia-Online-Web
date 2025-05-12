@@ -2,7 +2,7 @@ import { ProfileSurveyQuestion } from "../types/Profile";
 
 // need to change for production
 //export const API_URL = "http://146.190.125.251:8000/api";
-export const API_URL = "https://e9de-146-190-125-251.ngrok-free.app/api";
+export const API_URL = "https://f646-146-190-125-251.ngrok-free.app/api";
 export const surveyQuestions: Array<ProfileSurveyQuestion> = [
   {
     variableId: "age",
